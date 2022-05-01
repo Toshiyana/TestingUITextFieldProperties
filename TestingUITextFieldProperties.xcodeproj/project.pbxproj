@@ -9,13 +9,11 @@
 /* Begin PBXBuildFile section */
 		996A1BCB281DB3CC005731E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A1BCA281DB3CC005731E7 /* AppDelegate.swift */; };
 		996A1BCD281DB3CC005731E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A1BCC281DB3CC005731E7 /* SceneDelegate.swift */; };
-		996A1BCF281DB3CC005731E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A1BCE281DB3CC005731E7 /* ViewController.swift */; };
 		996A1BD2281DB3CC005731E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996A1BD0281DB3CC005731E7 /* Main.storyboard */; };
 		996A1BD4281DB3D2005731E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996A1BD3281DB3D2005731E7 /* Assets.xcassets */; };
 		996A1BD7281DB3D2005731E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996A1BD5281DB3D2005731E7 /* LaunchScreen.storyboard */; };
 		996A1BE2281DB3D2005731E7 /* TestingUITextFieldPropertiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A1BE1281DB3D2005731E7 /* TestingUITextFieldPropertiesTests.swift */; };
-		996A1BEC281DB3D2005731E7 /* TestingUITextFieldPropertiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A1BEB281DB3D2005731E7 /* TestingUITextFieldPropertiesUITests.swift */; };
-		996A1BEE281DB3D2005731E7 /* TestingUITextFieldPropertiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A1BED281DB3D2005731E7 /* TestingUITextFieldPropertiesUITestsLaunchTests.swift */; };
+		996A1BFB281DB653005731E7 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A1BFA281DB653005731E7 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +37,6 @@
 		996A1BC7281DB3CC005731E7 /* TestingUITextFieldProperties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingUITextFieldProperties.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		996A1BCA281DB3CC005731E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		996A1BCC281DB3CC005731E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		996A1BCE281DB3CC005731E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		996A1BD1281DB3CC005731E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		996A1BD3281DB3D2005731E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		996A1BD6281DB3D2005731E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,8 +44,7 @@
 		996A1BDD281DB3D2005731E7 /* TestingUITextFieldPropertiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingUITextFieldPropertiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		996A1BE1281DB3D2005731E7 /* TestingUITextFieldPropertiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUITextFieldPropertiesTests.swift; sourceTree = "<group>"; };
 		996A1BE7281DB3D2005731E7 /* TestingUITextFieldPropertiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingUITextFieldPropertiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		996A1BEB281DB3D2005731E7 /* TestingUITextFieldPropertiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUITextFieldPropertiesUITests.swift; sourceTree = "<group>"; };
-		996A1BED281DB3D2005731E7 /* TestingUITextFieldPropertiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUITextFieldPropertiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		996A1BFA281DB653005731E7 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +77,6 @@
 			children = (
 				996A1BC9281DB3CC005731E7 /* TestingUITextFieldProperties */,
 				996A1BE0281DB3D2005731E7 /* TestingUITextFieldPropertiesTests */,
-				996A1BEA281DB3D2005731E7 /* TestingUITextFieldPropertiesUITests */,
 				996A1BC8281DB3CC005731E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,7 +96,7 @@
 			children = (
 				996A1BCA281DB3CC005731E7 /* AppDelegate.swift */,
 				996A1BCC281DB3CC005731E7 /* SceneDelegate.swift */,
-				996A1BCE281DB3CC005731E7 /* ViewController.swift */,
+				996A1BFA281DB653005731E7 /* SignupViewController.swift */,
 				996A1BD0281DB3CC005731E7 /* Main.storyboard */,
 				996A1BD3281DB3D2005731E7 /* Assets.xcassets */,
 				996A1BD5281DB3D2005731E7 /* LaunchScreen.storyboard */,
@@ -116,15 +111,6 @@
 				996A1BE1281DB3D2005731E7 /* TestingUITextFieldPropertiesTests.swift */,
 			);
 			path = TestingUITextFieldPropertiesTests;
-			sourceTree = "<group>";
-		};
-		996A1BEA281DB3D2005731E7 /* TestingUITextFieldPropertiesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				996A1BEB281DB3D2005731E7 /* TestingUITextFieldPropertiesUITests.swift */,
-				996A1BED281DB3D2005731E7 /* TestingUITextFieldPropertiesUITestsLaunchTests.swift */,
-			);
-			path = TestingUITextFieldPropertiesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				996A1BCF281DB3CC005731E7 /* ViewController.swift in Sources */,
+				996A1BFB281DB653005731E7 /* SignupViewController.swift in Sources */,
 				996A1BCB281DB3CC005731E7 /* AppDelegate.swift in Sources */,
 				996A1BCD281DB3CC005731E7 /* SceneDelegate.swift in Sources */,
 			);
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				996A1BEE281DB3D2005731E7 /* TestingUITextFieldPropertiesUITestsLaunchTests.swift in Sources */,
-				996A1BEC281DB3D2005731E7 /* TestingUITextFieldPropertiesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
